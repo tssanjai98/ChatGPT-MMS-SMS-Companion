@@ -26,11 +26,11 @@ To set up this project locally, follow these steps:
 
 2. Install the required dependencies
 
-```pip install -r requirements.txt```
+  ```pip install -r requirements.txt```
 
 3. Start the Flask server
 
-```python main.py```
+  ```python main.py```
 
 ## Usage
 Once the Flask server is running, it will listen for incoming webhook events from Twilio. Send an SMS or MMS to the Twilio number configured for this application. The Flask app will process the message and send an appropriate response back.
@@ -48,10 +48,4 @@ Text messages are processed using OpenAI's GPT-3 model to generate human-like te
 SMS and MMS messages are received and sent using Twilio's messaging API.
 
 ## Deployment
-Add additional notes about how to deploy this on a live system.
-
-## Authors
-Sanjai Trichinopoly Shanmugam
-Vignesh Siva
-
-
+This project is deployed on AWS using EC2 and CloudFront
