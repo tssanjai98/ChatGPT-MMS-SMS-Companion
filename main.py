@@ -9,13 +9,13 @@ import boto3
 
 app = Flask(__name__)
 
-session = boto3.Session(aws_access_key_id="AKIAUMSOFBNDASSYLGHI", aws_secret_access_key="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", region_name="us-east-1")
-account_id = 'AC19a50712bcf8f7a88c103640c6bb3c41'
-auth_token = '4d345de218c6c6d39fdc5b332cb77cec'
+session = boto3.Session(aws_access_key_id="XXXX", aws_secret_access_key="XXXXX", region_name="us-east-1")
+account_id = 'XXXX'
+auth_token = 'XXXX'
 client = twilioClient(account_id, auth_token)
 
 
-openai.api_key = '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'
+openai.api_key = 'XXXX'
 
 rek_client = session.client('rekognition')
 
