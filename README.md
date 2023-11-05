@@ -1,4 +1,4 @@
-# LearnQuick
+# ChatGPT MMS-SMS Companion
 
 This project is a Flask application that integrates Twilio's messaging API with OpenAI's GPT-3 model and AWS Rekognition for image processing. It provides an endpoint to handle incoming messages from Twilio, processes them either as text input for OpenAI's GPT-3 or as images using AWS Rekognition for text detection, and sends a response back to the sender.
 
