@@ -22,45 +22,36 @@ This project is a Flask application that integrates Twilio's messaging API with 
 
 To set up this project locally, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository
 
-2. Install the required dependencies:
+2. Install the required dependencies
 
-{`pip install -r requirements.txt`}
+```pip install -r requirements.txt```
 
 3. Start the Flask server
 
-python main.py
+```python main.py```
 
-Usage
+## Usage
 Once the Flask server is running, it will listen for incoming webhook events from Twilio. Send an SMS or MMS to the Twilio number configured for this application. The Flask app will process the message and send an appropriate response back.
 
-Endpoints
+## Endpoints
 GET /: Basic endpoint to check if the app is running.
 POST /webhook: Webhook endpoint for Twilio to send messages to, which are then processed by the application.
 AWS Rekognition
 The application uses AWS Rekognition to detect text in images. Ensure that your AWS account has permissions set for the Rekognition service.
 
-OpenAI
+## OpenAI
 Text messages are processed using OpenAI's GPT-3 model to generate human-like text responses.
 
-Twilio
+## Twilio
 SMS and MMS messages are received and sent using Twilio's messaging API.
 
-Deployment
+## Deployment
 Add additional notes about how to deploy this on a live system.
 
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+## Authors
+Sanjai Trichinopoly Shanmugam
+Vignesh Siva
 
-Versioning
-For the versions available, see the tags on this repository.
-
-Authors
-Your Name - Initial work - YourGithubUsername
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-Acknowledgments
-Mention any inspiration, code snippets, etc.
 
